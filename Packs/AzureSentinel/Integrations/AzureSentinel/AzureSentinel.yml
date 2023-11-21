@@ -233,6 +233,12 @@ script:
     - contextPath: AzureSentinel.Incident.AssigneeEmail
       description: The email address of the incident assignee.
       type: String
+    - contextPath: AzureSentinel.Incident.AssigneeObjectID
+      description: The objectId of the incident assignee.
+      type: string
+    - contextPath: AzureSentinel.Incident.AssigneeUPN
+      description: Userprincipalname of incident assignee.
+      type: string
     - contextPath: AzureSentinel.Incident.Label.Name
       description: The name of the incident label.
       type: String
@@ -589,7 +595,7 @@ script:
       description: The objectId of the incident assignee.
       type: string
     - contextPath: AzureSentinel.Incident.AssigneeUPN
-      description: Userprincipalname of incident assignee
+      description: Userprincipalname of incident assignee.
       type: string
     - contextPath: AzureSentinel.Incident.Label.Name
       description: The name of the incident label.
